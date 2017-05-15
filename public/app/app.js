@@ -1,0 +1,1 @@
+var app = angular.module('vivekApp',['appRoutes','employeeController','employeeService','mainController','authervices']);

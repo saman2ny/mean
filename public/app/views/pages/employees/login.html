@@ -1,0 +1,16 @@
+<h1>Employee Login</h1>
+<form ng-submit="register.regEmployee(regData)">
+	<strong>Employee Name</strong><br><input type="text" name="username" ng-model="register.regData.employeename"><br><br>
+	<strong>Password</strong><br><input type="password" name="password" ng-model="register.regData.password"><br><br>
+	<input type="submit" value="Login">
+</form>
+<div style="color:green;position: absolute;left: 10px;border: 2px solid green;width: 150px;" ng-show="register.successMsg">
+	<h3>{{register.successMsg}}</h3>
+</div>
+<div style="color:red;position: absolute;left: 10px;border: 2px solid red;width: 150px;" ng-show="register.errorMsg">
+	<h3>{{register.errorMsg}}</h3>
+</div>  
+    
+    
+    
+    
